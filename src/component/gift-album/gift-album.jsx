@@ -22,16 +22,14 @@ class GiftAlbum extends Component {
         return (
             <>
                 <Dialog open={this.props.open} aria-labelledby="simple-dialog-title" onClose={this.props.close}>
-                    <FlipPage orientation="horizontal" width="480" flipOnTouchZone="250">
-                        {
-                            this.state.imageItemURLs.map(i =>
+                    <FlipPage orientation="horizontal" width="480">
+                    
                                 <article>
                                     <div className="photo-cover">
-                                        <img className="album-image" src={i} alt="can't load" />
+                                        <img className="album-image" src="./birthday_font_page.jpeg" alt="can't load" />
                                     </div>
                                 </article>
-                            )
-                        }
+                           
                     </FlipPage>
                 </Dialog>
             </>
