@@ -1,0 +1,23 @@
+canvas {
+    display: block
+}
+
+h1 {
+    font-family: serif;
+    text-shadow: 2px 2px tan;
+    text-transform: capitalize;
+}
+
+.ml2 {
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.dash-body{
+    text-align: center;
+}

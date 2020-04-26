@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import GiftBox from './component/gift-box/gift-box';
+import DashLayout from './component/dash-layout/dash-layout';
 
 ReactDOM.render(
   <App />,
@@ -10,7 +11,9 @@ ReactDOM.render(
 
 function App() {
   return (
-    <GiftBox />
+    <DashLayout>
+      <GiftBox />
+    </DashLayout>
   )
 }
 

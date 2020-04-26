@@ -6,3 +6,35 @@
 .photo-cover{
     text-align: center;
 }
+
+.front-page{
+    background: linear-gradient(to bottom right, rgb(153, 102, 255,0.6) 0%, rgb(255, 102, 0,0.5) 100%);
+    text-align: center;
+    height: 400px;
+}
+
+.header-birthday{
+    font-family: cursive;
+    font-size: 40px;
+    color:purple;
+    text-shadow: 2px 2px mediumslateblue;
+}
+
+.header{
+    font-family: cursive;
+    margin: unset;
+    color: rgb(255, 20, 79);
+    font-size: x-large;
+}
+
+.page{
+    text-align: center;
+    font-family: fantasy;
+    padding: 10%;
+    text-transform: capitalize;
+    color: black;
+}
+.gift-box-image{
+    top:50%;
+    left:50%
+}
