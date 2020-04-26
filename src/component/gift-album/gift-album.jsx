@@ -11,12 +11,13 @@ class GiftAlbum extends Component {
     render() {
         return (
             <>
-                <Dialog open={this.props.open} TransitionComponent={Zoom} aria-labelledby="simple-dialog-title" onClose={this.props.close} >
+                <Dialog open={this.props.open} TransitionComponent={Zoom} page={{border:'1px solid black'}}
+                aria-labelledby="simple-dialog-title" onClose={this.props.close} >
                     <FlipPage orientation="horizontal"
                         pageBackground="cornsilk">
                         <article>
                             <div className="front-page">
-                                <h3 className="header">
+                                <h3 className="header" style={{paddingTop:'100px'}}>
                                     Wishing you a very
                                </h3>
                                 <br />
@@ -26,22 +27,30 @@ class GiftAlbum extends Component {
                             </div>
                         </article>
                         <article>
-                            <div className="page">
+                            <div className="page" style={{paddingTop:'50px'}}>
                                 I am so glad I can call you mine
                             <br />
+                                <br />
                             and you can call me yours
                             <br />
+                                <br />
                             To love you and be loved by you
                             <br />
+                                <br />
                             until the end of time is all this
-                            <br />
+                            <br />                                <br />
+                                <br />
                             heart of mine desires.
                             <br />
+                                <br />
                             Happy birthday, beautiful girl!
                             </div>
                         </article>
                         <article>
-                            <div className="page">
+                            <img src='./pic1.jpg' className="album-image" alt='cant load' />
+                        </article>
+                        <article>
+                            <div className="page" style={{paddingTop:'100px'}}>
                                 আর একটা বছর এসে গেলো
                                 <br />
                                 <br />
@@ -56,7 +65,14 @@ class GiftAlbum extends Component {
 
                         </article>
                         <article>
-                            <img src='./main-pic.jpg' className="album-image" alt='cant load'/>
+                            <img src='./main-pic.jpg' className="album-image" alt='cant load' />
+                        </article>
+                        <article>
+                            <div className="front-page">
+                                <div className="header" style={{paddingTop:'200px'}}>
+                                    ♥  ♥ Thank you so much for being part of my life  ♥  ♥                                     
+                                </div>
+                            </div>
                         </article>
 
                     </FlipPage>
