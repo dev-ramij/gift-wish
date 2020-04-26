@@ -55,6 +55,9 @@ class GiftAlbum extends Component {
                             </div>
 
                         </article>
+                        <article>
+                            <img src='./main-pic.jpg' className="album-image" alt='cant load'/>
+                        </article>
 
                     </FlipPage>
                 </Dialog>
