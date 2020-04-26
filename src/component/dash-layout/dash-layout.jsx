@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './dash-layout.css';
-import { Wave } from 'react-animated-text';
 
 
 class DashLayout extends Component {
