@@ -40,6 +40,7 @@ class DashLayout extends Component {
         return (
             <>
                 <div className="dash-body">
+                    <img src='./dp.jpg' className="dp" alt="cant" />
                     <h1 className="ml2" style={{ color: this.state.color }}>Happy birthday sumu</h1>
                     <h3>There is a small gift for please tap the gift box to open</h3>
                     {this.props.children}
